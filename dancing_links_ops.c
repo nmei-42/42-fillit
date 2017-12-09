@@ -37,7 +37,7 @@
 **	+------+  --  +----------+  ->  +------+
 **	|  uu  |  <-  | row_node |	->  |  dd  |
 **	+------+  <-  +----------+  --  +------+
-**				\______________/
+**		    \______________/
 **
 **	4) After hiding (row_node) within its column move to the next
 **	node to the right and repeat 2) & 3) until row_node == col_node again.
@@ -75,7 +75,7 @@ static void	cover_nodes(t_node *col_node)
 **	+------+  --  +-------+  ->  +--------+
 **	| prev |  <-  |   c   |	 ->  |  next  |
 **	+------+  <-  +-------+  --  +--------+
-**				\___________/
+**		    \___________/
 **
 **	Note: (c)'s 'next' and 'prev' pointers are still preserved!
 **
