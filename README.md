@@ -1,5 +1,5 @@
 # fillit
-An implementation of Knuth's Dancing Links algorithm to determine the smallest square that will fit 1-26 tetromino (a.k.a. Tetris) pieces
+An implementation of [Knuth's Dancing Links](https://en.wikipedia.org/wiki/Dancing_Links) to determine the smallest square that will fit 1-26 tetromino (a.k.a. Tetris) pieces
 
 ### Installation
 To generate an executable for this project run `make` in the root of the project directory.
@@ -48,4 +48,7 @@ CCCA$
 BBBB$
 $>
 ```
+## Readings and resources that were instrumental for implementing this project
 
+[Knuth's Dancing Links paper](https://arxiv.org/abs/cs/0011047)
+[Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)
