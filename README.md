@@ -13,24 +13,38 @@ example:
 
 ```
 $> cat -e valid_fillit_file
-...#$
-...#$
-...#$
-...#$
+....$
+##..$
+.#..$
+.#..$
 $
-....$
-....$
 ....$
 ####$
-$
-.###$
-...#$
 ....$
 ....$
 $
+#...$
+###.$
 ....$
-..##$
+....$
+$
+....$
+##..$
 .##.$
 ....$
 $>
 ```
+
+### Output
+The program will find and print out the smallest *square* that will fit all the pieces described in the valid_fillit_file and will prioritize placing earlier encountered pieces in the top-left corner of the square if possible.
+
+example:
+
+```
+$> ./fillit valid_fillit_file | cat -e
+DDAA$
+CDDA$
+CCCA$
+BBBB$
+```
+
