@@ -51,4 +51,5 @@ $>
 ### Readings and resources that were instrumental for implementing this project
 
 [Knuth's Dancing Links paper](https://arxiv.org/abs/cs/0011047)
+
 [Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)
